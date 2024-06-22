@@ -1,87 +1,99 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'Inter';
-    src: url(../assets/fonts/static/Inter-Bold.ttf) format('truetype');
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../assets/fonts/static/Inter-Bold.ttf) format("truetype");
+  src: url(../assets/fonts/static/Inter-Regular.ttf) format("truetype");
+  src: url(../assets/fonts/static/Inter-SemiBold.ttf) format("truetype");
 }
-:root{
-    --fonte: font-family:'Inter';
+
+:root {
+  --fonte: "Inter", sans-serif;
 }
 
 *{
-    padding: 0;
     margin: 0;
-    font-family:var(--fonte);
+    padding: 0;
 }
 
-body{
-    background-color: rgb(8, 8, 29);
-
-
+body {
+  background-color: rgb(8, 8, 29);
+  font-family: var(--fonte);
+  
 }
 
-main{
-    padding-top: 10px;
-    width: 90vw;
-    margin: auto;
-    margin-top: 50px;
-    background-color: rgb(31, 30, 39);
-    border-radius: 15px;
+main {
+  padding: 10px;
+  width: 80vw;
+
+  margin: 50px auto 40px auto;
+  background-color: rgb(31, 30, 39);
+  border-radius: 15px;
 }
 
-#info{
-    text-align: center;
+#info {
+  text-align: center;
 }
 
-#info h1{
-    margin: 30px 0 7px 0;
-    color: white;
-    font-size: 1.9em;
+#info h1 {
+  margin: 30px 0 7px 0;
+  color: white;
+  font-size: 1.9em;
+  font-weight: bolder;
 }
 
-#info #local{
-    color: rgb(204, 233, 40);
+#info #local {
+  color: rgb(204, 233, 40);
+  font-weight: 600;
 }
 
-#info-text #prof{
-    margin-top: 30px;
-    color: white;
+#info-text #prof {
+  margin-top: 30px;
+  color: white;
 }
 
-img{
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    margin-top: 30px;
-    width: 180px;
+img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 180px;
 }
 
-
-#links{
-    
-    margin-top: 30px;
+#links {
+  margin-top: 30px;
 }
 
-#links a{
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    
-    width: 70vw;
-    margin: 15px auto;
-    padding: 20px;
-    border-radius: 10px;
-    color: white;
-    background-color: rgb(103, 95, 124);
-    font-weight: bold;
-    font-size: 1.2em;
-    }
+#links a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  width: 80%;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(103, 95, 124);
+  font-weight: bold;
+  font-size: 1.2em;
+}
 
+#links a:hover {
+  background-color: rgb(204, 233, 40);
+  color: rgb(31, 30, 39);
+  transition-duration: 0.4s;
+}
 
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 
