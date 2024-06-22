@@ -31,6 +31,7 @@ main {
   margin: 50px auto 40px auto;
   background-color: rgb(31, 30, 39);
   border-radius: 15px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.534);
 }
 
 #info {
@@ -78,7 +79,7 @@ img {
   background-color: rgb(103, 95, 124);
   font-weight: bold;
   font-size: 1.2em;
-  transition-duration: 0.4s;
+  box-shadow: 2px 2px ;
 }
 
 #links a:hover {
