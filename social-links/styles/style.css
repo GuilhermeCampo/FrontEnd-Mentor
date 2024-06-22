@@ -79,7 +79,7 @@ img {
   background-color: rgb(103, 95, 124);
   font-weight: bold;
   font-size: 1.2em;
-  box-shadow: 2px 2px ;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
 }
 
 #links a:hover {
