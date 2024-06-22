@@ -78,12 +78,13 @@ img {
   background-color: rgb(103, 95, 124);
   font-weight: bold;
   font-size: 1.2em;
+  transition-duration: 0.4s;
 }
 
 #links a:hover {
   background-color: rgb(204, 233, 40);
   color: rgb(31, 30, 39);
-  transition-duration: 0.4s;
+  
 }
 
 #links a:active{
