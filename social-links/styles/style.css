@@ -90,10 +90,11 @@ img {
   font-size: 11px;
   text-align: center;
   width: 100%;
-  background-color: white;
+  color: white;
+  
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(83, 89%, 57%);
 }
 
 
