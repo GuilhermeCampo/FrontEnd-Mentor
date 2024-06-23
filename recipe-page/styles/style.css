@@ -166,6 +166,21 @@ hr{
 
  }
 
+ .attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    font-size: .7em;
+    font-family: var(--fonte1);
+   
+  }
+  .attribution a {
+    
+    text-decoration: none;
+    color: var(--cor-fonte1);
+    font-weight: bolder;
+  }
+
 
 
 
