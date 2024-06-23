@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/* 
+ cores 
+
+ rosa fundo: rgb(243,229,216)
+  fontes titulo : rgb(118, 45, 74)
+
+
+*/
+
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YSerif', serif;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf) format('truetype');
+    
+}
+
+
+:root{
+    --cor-fundo: rgb(243,229,216);
+    --cor-fonte: rgb(118,45,74);
+    --cor-fonte2: rgb(107, 66, 46);
+    --cor-texto: rgb(68, 67, 67);
+
+    --fonte1: 'Outfit', sans-serif;
+    --fonte2: 'YSerif', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte1);
+ 
+}
+
+h1, h2{
+    font-family: var(--fonte2);
+}
+
+h2{
+    color: var(--cor-fonte2);
+}
+
+hr{
+    width: 80vw;
+    display: block;
+    margin: auto;
+}
+
+#text-header{
+    padding: 30px;
+    margin: 10px 0;
+}
+
+#text-header  h1{
+    font-size: 2.6em;
+    margin-bottom: 20px;
+    color: rgb(39, 39, 39);
+
+}
+
+#text-header p{
+    font-size: 1em;
+    color: rgb(95, 95, 95);
+    line-height: 2em;
+}
+
+
+
+
+.prep{
+    padding: 20px;
+    width: 76vw;
+    margin: 10px auto;
+    list-style-position: inside;
+    background-color: var(--cor-fundo);
+    border-radius: 10px;
+     
+}
+
+.prep > h3{
+    color: var(--cor-fonte);
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+.prep li{
+    padding: 10px;
+    color: var(--cor-texto);
+}
+
+#ing
+ {
+    padding: 40px;
+    list-style-position: outside;
+    line-height: 2em;
+    
+}
+#ing li{
+    padding-left: 20px;
+    color: var(--cor-texto);
+    
+}
+
+
+#inst{
+    padding: 40px;
+   
+
+}
+
+#inst li{
+    padding: 10px;
+    line-height: 1.5em;
+    padding-left: 20px;
+    color: var(--cor-texto);
+  }
+
+
+
+
+  @media screen and (min-width:600px){
+    body{
+        background-color: var(--cor-fundo);
+    }
+    main{
+        background-color: #fff;
+        max-width: 700px;
+        margin: 30px auto;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #header img{
+        border-radius: 10px;
+        
+        
+    }
+
+    .prep{
+        width: 80%;
+    }
+
+    hr{
+        width: 80%;
+    }
+  }
+    
+  
+
+
+
+
