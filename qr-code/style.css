@@ -47,6 +47,7 @@ main{
     color: gray;
 }
 
+
 @media screen  and (min-width:400px){
     main{
         max-width: 290px;
